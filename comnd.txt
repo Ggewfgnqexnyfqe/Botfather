@@ -1,0 +1,13 @@
+NEW CODESPACE METHOD BGMI SERVER 
+C/R @KaliaYtOwner
+
+gcc -o bgmi bgmi.c -lpthread
+
+chmod +x *
+./bgmi.sh
+pip install telebot
+pip install flask
+pip install aiogram
+pip install python-telegram-bot
+chmod +x *
+python3 bgmi.py
